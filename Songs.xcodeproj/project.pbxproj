@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		70DA78351ACC72D800499E75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DA78341ACC72D800499E75 /* AppDelegate.swift */; };
-		70DA78371ACC72D800499E75 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DA78361ACC72D800499E75 /* ViewController.swift */; };
 		70DA783A1ACC72D800499E75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70DA78381ACC72D800499E75 /* Main.storyboard */; };
 		70DA783C1ACC72D800499E75 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70DA783B1ACC72D800499E75 /* Images.xcassets */; };
 		70DA783F1ACC72D800499E75 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70DA783D1ACC72D800499E75 /* LaunchScreen.xib */; };
 		70DA784B1ACC72D800499E75 /* SongsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DA784A1ACC72D800499E75 /* SongsTests.swift */; };
+		70DA78551ACC743E00499E75 /* SongsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DA78541ACC743E00499E75 /* SongsTableViewController.swift */; };
+		70DA78571ACC794600499E75 /* song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DA78561ACC794600499E75 /* song.swift */; };
+		70DA78591ACC79A800499E75 /* SongDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DA78581ACC79A800499E75 /* SongDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +31,15 @@
 		70DA782F1ACC72D800499E75 /* Songs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Songs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70DA78331ACC72D800499E75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		70DA78341ACC72D800499E75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		70DA78361ACC72D800499E75 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		70DA78391ACC72D800499E75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		70DA783B1ACC72D800499E75 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		70DA783E1ACC72D800499E75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		70DA78441ACC72D800499E75 /* SongsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SongsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		70DA78491ACC72D800499E75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		70DA784A1ACC72D800499E75 /* SongsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongsTests.swift; sourceTree = "<group>"; };
+		70DA78541ACC743E00499E75 /* SongsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongsTableViewController.swift; sourceTree = "<group>"; };
+		70DA78561ACC794600499E75 /* song.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = song.swift; sourceTree = "<group>"; };
+		70DA78581ACC79A800499E75 /* SongDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,11 +82,13 @@
 			isa = PBXGroup;
 			children = (
 				70DA78341ACC72D800499E75 /* AppDelegate.swift */,
-				70DA78361ACC72D800499E75 /* ViewController.swift */,
 				70DA78381ACC72D800499E75 /* Main.storyboard */,
 				70DA783B1ACC72D800499E75 /* Images.xcassets */,
 				70DA783D1ACC72D800499E75 /* LaunchScreen.xib */,
 				70DA78321ACC72D800499E75 /* Supporting Files */,
+				70DA78541ACC743E00499E75 /* SongsTableViewController.swift */,
+				70DA78561ACC794600499E75 /* song.swift */,
+				70DA78581ACC79A800499E75 /* SongDetailViewController.swift */,
 			);
 			path = Songs;
 			sourceTree = "<group>";
@@ -212,8 +218,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70DA78371ACC72D800499E75 /* ViewController.swift in Sources */,
+				70DA78551ACC743E00499E75 /* SongsTableViewController.swift in Sources */,
 				70DA78351ACC72D800499E75 /* AppDelegate.swift in Sources */,
+				70DA78591ACC79A800499E75 /* SongDetailViewController.swift in Sources */,
+				70DA78571ACC794600499E75 /* song.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

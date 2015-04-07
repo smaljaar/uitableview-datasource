@@ -15,6 +15,7 @@
 		70DA78551ACC743E00499E75 /* SongsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DA78541ACC743E00499E75 /* SongsTableViewController.swift */; };
 		70DA78571ACC794600499E75 /* song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DA78561ACC794600499E75 /* song.swift */; };
 		70DA78591ACC79A800499E75 /* SongDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DA78581ACC79A800499E75 /* SongDetailViewController.swift */; };
+		70DA785B1ACDC3C000499E75 /* SongsDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DA785A1ACDC3C000499E75 /* SongsDatasource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		70DA78541ACC743E00499E75 /* SongsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongsTableViewController.swift; sourceTree = "<group>"; };
 		70DA78561ACC794600499E75 /* song.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = song.swift; sourceTree = "<group>"; };
 		70DA78581ACC79A800499E75 /* SongDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongDetailViewController.swift; sourceTree = "<group>"; };
+		70DA785A1ACDC3C000499E75 /* SongsDatasource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongsDatasource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 				70DA783D1ACC72D800499E75 /* LaunchScreen.xib */,
 				70DA78321ACC72D800499E75 /* Supporting Files */,
 				70DA78541ACC743E00499E75 /* SongsTableViewController.swift */,
+				70DA785A1ACDC3C000499E75 /* SongsDatasource.swift */,
 				70DA78561ACC794600499E75 /* song.swift */,
 				70DA78581ACC79A800499E75 /* SongDetailViewController.swift */,
 			);
@@ -222,6 +225,7 @@
 				70DA78351ACC72D800499E75 /* AppDelegate.swift in Sources */,
 				70DA78591ACC79A800499E75 /* SongDetailViewController.swift in Sources */,
 				70DA78571ACC794600499E75 /* song.swift in Sources */,
+				70DA785B1ACDC3C000499E75 /* SongsDatasource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

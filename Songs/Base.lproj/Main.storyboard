@@ -66,18 +66,6 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="rating" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uux-R4-Oci">
-                                <rect key="frame" x="278" y="435" width="44" height="20.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="chart position" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0bn-d8-tWG">
-                                <rect key="frame" x="247" y="495" width="105" height="20.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="artist" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sic-Gl-MSf">
                                 <rect key="frame" x="281" y="312" width="38.5" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -87,23 +75,16 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="centerX" secondItem="uux-R4-Oci" secondAttribute="centerX" id="0cS-5G-3sR"/>
                             <constraint firstAttribute="centerX" secondItem="Sic-Gl-MSf" secondAttribute="centerX" id="8cw-V1-Y7e"/>
-                            <constraint firstItem="0bn-d8-tWG" firstAttribute="top" secondItem="uux-R4-Oci" secondAttribute="bottom" constant="39.5" id="B2W-6x-pxj"/>
                             <constraint firstAttribute="centerX" secondItem="pfc-Ql-P2J" secondAttribute="centerX" id="CYm-vC-iD8"/>
                             <constraint firstAttribute="centerX" secondItem="Sic-Gl-MSf" secondAttribute="centerX" id="JJ7-i6-Tsa"/>
                             <constraint firstAttribute="centerX" secondItem="pfc-Ql-P2J" secondAttribute="centerX" id="Xm6-cb-zGl"/>
                             <constraint firstItem="Sic-Gl-MSf" firstAttribute="top" secondItem="pfc-Ql-P2J" secondAttribute="bottom" constant="108" id="cJE-1L-Oot"/>
-                            <constraint firstAttribute="centerX" secondItem="0bn-d8-tWG" secondAttribute="centerX" id="hdr-C5-dcU"/>
-                            <constraint firstAttribute="centerX" secondItem="uux-R4-Oci" secondAttribute="centerX" id="qJN-sK-TYX"/>
                             <constraint firstItem="pfc-Ql-P2J" firstAttribute="top" secondItem="BUH-5k-J3M" secondAttribute="bottom" constant="120" id="vty-Py-39d"/>
-                            <constraint firstItem="uux-R4-Oci" firstAttribute="top" secondItem="Sic-Gl-MSf" secondAttribute="bottom" constant="102" id="y0a-97-eEm"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="artistLabel" destination="Sic-Gl-MSf" id="trl-ty-kFe"/>
-                        <outlet property="chartPosition" destination="0bn-d8-tWG" id="RBx-Qi-MLv"/>
-                        <outlet property="ratingLabel" destination="uux-R4-Oci" id="UlA-IF-9K1"/>
                         <outlet property="titleLabel" destination="pfc-Ql-P2J" id="pQK-bV-tVa"/>
                     </connections>
                 </viewController>

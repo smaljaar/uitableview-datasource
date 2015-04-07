@@ -11,6 +11,6 @@ import Foundation
 struct Song {
     var title: String
     var artist: String
-    var rating: Double
-    var chartPosition: Int
+    var albumName: String
+    var artworkUrl: String
 }

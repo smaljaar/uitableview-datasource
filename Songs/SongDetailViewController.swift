@@ -14,9 +14,7 @@ class SongDetailViewController: UIViewController {
     
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var artistLabel: UILabel!
-    @IBOutlet weak var ratingLabel: UILabel!
-    @IBOutlet weak var chartPosition: UILabel!
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         self.updateView()
@@ -26,14 +24,6 @@ class SongDetailViewController: UIViewController {
         titleLabel.text = song?.title
         artistLabel.text = song?.artist
         
-        if let rating = song?.rating {
-            ratingLabel.text = "\(rating) out of 5 stars"
-        }
-        
-        if let chartPosition = song?.chartPosition {
-            
-            self.chartPosition.text = "chart position: \(chartPosition)"
-        }
     }
     
 }
